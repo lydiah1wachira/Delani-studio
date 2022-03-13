@@ -1,0 +1,48 @@
+.first-heading{
+  font-size: xx-large;
+}
+
+
+#intro-section{
+  background-image: url('../assets/backgrounds/h_img.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-top:15%; 
+  font-family: 'Gabriela', serif;
+  padding-bottom: 3%;
+  font-weight: 500;
+}
+
+
+.D-logo{
+  padding-bottom: 3%;
+}
+
+.mouse-icon{
+  padding-top: 4%;
+}
+
+#about-section{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-weight: 400;
+
+}
+  
+
+#services-section{
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Copse', serif;
+  color:white;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}

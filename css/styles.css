@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ubuntu:wght@300&display=swap');
+html{
+  scroll-behavior:auto;
+}
 #intro-section {
   background-image: url("../assets/backgrounds/h_img.jpg");
   background-position: center center;
@@ -80,4 +84,8 @@ footer{
   align-items:center;
   padding-top:2%;
   text-align: center;
+}
+
+.design-icon-hide{
+  display: none;
 }

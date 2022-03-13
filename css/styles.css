@@ -45,7 +45,7 @@ html{
 
 #what-we-do-section{
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
   text-align: center;
 }
 
@@ -88,4 +88,12 @@ footer{
 
 .design-icon-hide{
   display: none;
+}
+
+.dev-icon-hide{
+  display:none;
+}
+
+.product-icon-hide{
+  display:none;
 }

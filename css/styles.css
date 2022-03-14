@@ -75,14 +75,20 @@ html {
   left:0;
   width:100%;
   height: 100%;
-  background:rgba(250, 248, 248, 0.5);
+  background:rgba(250, 248, 248, 0.4);
+  font-size: x-large;
+  font-weight: 400;
   color: black;
-  display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   display: none;
+  text-align: center;
   
+  
+}
+.image_text1,.image_text2,.image_text3, .image_text4,.image_text5,.image_text6,.image_text7,.image_text8{
+  display: none;
 }
 
 #work1,#work2,#work3,#work4,#work5,#work6,#work7,#work8{
@@ -110,13 +116,21 @@ html {
   padding-bottom: 5%;
 }
 
-.form-control {
+.mce-NAME{
   background-color: transparent;
-  color: aliceblue;
+}
+.mce-NAME::placeholder{
+  color: white;
+  font-size: 1em;
 }
 
-.form-control::placeholder {
-  color: white;
+#mce-MMERGE2{
+  background-color: transparent;
+  row-gap: 20%;
+}
+
+#mce-MMERGE2::placeholder{
+  color:white;
   font-size: 1em;
 }
 

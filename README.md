@@ -15,6 +15,24 @@ Delani Studio is a website for a company that works in design and programming.
 - To make changes to the program, open the folder in a text editor of your choice.
 - alternatively, open the file as a website( view only):
 
+## Behaviour Driven Development
+1. Add a toggle method to toggle between hiding and showing elements.
+ 
+2. Display feedback form for entering name, email address and message.
+
+- INPUT: "User's name is entered"
+          "User's email address is entered"
+  OUTPUT: "pop up that greets user and thanks them for the feedback."
+
+3. Getting the data(input) from the form element.
+
+4. add an EventListner, to validate the form
+   *INPUT: ""(blank)
+   *OUTPUT: "alert error message.
+
+
+5. create function to display the output.
+
 ## Known Bugs
 
 The mailchimp form does not work properly.

@@ -1,4 +1,4 @@
-// back-end logic.
+
 $(document).ready(function(){
   $('#design').click(function (){
     $(".design-icon-show").toggle();
@@ -71,7 +71,7 @@ $(document).ready(function(){
 
 
 
-//Front-End logic
+
 $('#mc-embedded-subscribe').click(
   function (e) {
     let name = document.getElementById('mce-NAME').value;

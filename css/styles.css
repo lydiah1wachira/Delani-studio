@@ -69,14 +69,36 @@ html {
  
 }
 
-.image_text{
-  display:none
+.image_text1,.image_text2,.image_text3, .image_text4,.image_text5,.image_text6,.image_text7,.image_text8{
+  position:absolute;
+  top: 0;
+  left:0;
+  width:100%;
+  height: 100%;
+  background:rgba(250, 248, 248, 0.5);
+  color: black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  
 }
+
+#work1,#work2,#work3,#work4,#work5,#work6,#work7,#work8{
+  position:relative;
+
+}
+
 
 .second_row{
   padding-top: 15px;
 }
 
+.work-image{
+  display:block;
+  width: 100%;
+}
 #contacts {
   color: white;
   background-image: url("../assets/backgrounds/c_image.jpg");

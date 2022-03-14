@@ -59,12 +59,22 @@ html {
 .flex-container {
   display: flex;
   align-content: center;
-  gap: 10px;
+  gap: 15px;
   max-width: 85%;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 5%;
   flex-wrap: wrap;
   justify-content: center;
+ 
+}
+
+.image_text{
+  display:none
+}
+
+.second_row{
+  padding-top: 15px;
 }
 
 #contacts {

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ubuntu:wght@300&display=swap");
 
-html{
-  scroll-behavior:auto;
+html {
+  scroll-behavior: auto;
 }
 
 #intro-section {
@@ -44,19 +44,30 @@ html{
   padding-bottom: 5%;
 }
 
-#what-we-do-section{
+#what-we-do-section {
   padding-top: 5%;
   padding-bottom: 3%;
   text-align: center;
 }
 
-.heading2{
+.heading2 {
   text-align: center;
   padding-bottom: 2%;
   padding-top: 2%;
 }
 
-#contacts{
+.flex-container {
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  max-width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#contacts {
   color: white;
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-position: center;
@@ -67,40 +78,40 @@ html{
   padding-bottom: 5%;
 }
 
-.form-control{
+.form-control {
   background-color: transparent;
   color: aliceblue;
 }
 
 .form-control::placeholder {
   color: white;
-  font-size: 1.0em;
+  font-size: 1em;
 }
 
-.submit{
+.submit {
   padding-top: 20px;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: space-evenly;
-  padding-top:2%;
+  padding-top: 2%;
   padding-top: 2%;
   padding-bottom: 3%;
 }
 
-.footer-section p{
-  text-align:center;
+.footer-section p {
+  text-align: center;
 }
 
-.design-icon-hide{
+.design-icon-hide {
   display: none;
 }
 
-.dev-icon-hide{
-  display:none;
+.dev-icon-hide {
+  display: none;
 }
 
-.product-icon-hide{
-  display:none;
+.product-icon-hide {
+  display: none;
 }

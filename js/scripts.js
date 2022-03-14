@@ -72,30 +72,10 @@ $(document).ready(function(){
 
 
 //Front-End logic
-$(document).ready(function(){
-  $("form#form34A").submit(function(event){
-     event.preventDefault();
-     $.ajax({
-      url: 'https://gmail.us14.list-manage.com/subscribe/post?u=a4c906441e186c972fa87c63e&amp;id=9587254a8d',
-      type: 'post',
-      data:$('#contact-form').serialize(),
-      success:function(){
-          
-      }
-  });
-    let name = $("input#mce-FNAME").val();
-
-    let email = $("input#mce-EMAIL").val();
-
-    let message = $("textarea#comment").val();
-
-    if ($("input#mce-FNAME").val() && $("input#mce-EMAIL").val()){
-      alert ('hello' + name, + ' '  + 'we have recieved your message.thankyou for reaching out to us.');
-    }
-    else {
-      alert("Please enter your name and email!");
-    }
-    
-  });
-
-});
+$('#mc-embedded-subscribe').click(
+  function (e) {
+    let name = document.getElementById('mce-NAME').value;
+      alert('Hello' + ' ' + name + ' ' + 'we have recieved your email, thankyou for reaching out.')
+      e.preventDefault();
+  }
+)

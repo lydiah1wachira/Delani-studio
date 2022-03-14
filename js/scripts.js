@@ -17,6 +17,21 @@ $(document).ready(function(){
   })
 });
 
+$(document).ready(function(){
+  $("#work1").mouseover(function(){
+    $("#overlay1").show();
+  }).mouseout(function(){
+    $("#overlay1").hide();
+  });
+});
 
 
 
+
+
+//Front-End logic
+$(documents).ready(function(){
+  $('#contact-form').submit(function(){
+
+  });
+});
